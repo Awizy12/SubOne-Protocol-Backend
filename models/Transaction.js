@@ -23,13 +23,14 @@ const TransactionSchema = new mongoose.Schema({
       'SENT', 
       'CONFIRMED', 
       'COMPLETE', 
+      'SUCCESS', 
       'FAILED', 
       'DENIED', 
       'CANCELLED', 
       'STUCK'
     ],
     default: 'INITIATED'
-  }, 
+  },
   errorMessage: { type: String }
 }, { timestamps: true });
 

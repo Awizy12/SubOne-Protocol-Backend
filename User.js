@@ -14,6 +14,14 @@ const userSchema = new mongoose.Schema({
     walletId: String
   }],
   
+  // Stores multi-chain Safe smart account deployments
+  safeDeployments: [{
+    blockchain: String,
+    safeAddress: String,
+    owners: [String],
+    threshold: Number
+  }],
+  
   createdAt: { type: Date, default: Date.now }
 });
 

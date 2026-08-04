@@ -13,9 +13,11 @@
   "type": "commonjs",
   "dependencies": {
     "@circle-fin/developer-controlled-wallets": "^10.6.0",
+    "@safe-global/protocol-kit": "^8.0.4",
     "axios": "^1.16.1",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
+    "ethers": "^6.17.0",
     "express": "^5.2.1",
     "mongoose": "^9.6.3",
     "socket.io": "^4.8.3",
